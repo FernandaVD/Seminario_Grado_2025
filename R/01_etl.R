@@ -5,7 +5,7 @@ library(tidyverse)
 
 # 1. Cargar dataset (SIN encabezados)
 adult <- read.csv(
-  "renv/data/adult.csv",
+  "data/adult.csv",
   header = TRUE,
   sep = ";",
   strip.white = TRUE,
